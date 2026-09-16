@@ -5,7 +5,7 @@ server {
     server_name piateknik.com www.piateknik.com;
 
     location / {
-        proxy_pass http://127.0.0.1:3001;
+        proxy_pass http://127.0.0.1:3000;
 
         proxy_http_version 1.1;
 
